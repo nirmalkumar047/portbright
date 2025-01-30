@@ -1,0 +1,228 @@
+*{
+    margin: 0%;
+    font-family: sans-serif;
+
+}
+body{
+    background-color: #C7D3DD;
+}
+h1{
+    color: #5283ac;
+}
+
+.logo{
+    font-size: 35px;
+    text-decoration: double;
+    font-style: italic;
+    color: rgb(11, 79, 72);
+
+}
+.logo label{
+    color:purple;
+}
+ul{
+    color: black;
+    display: flexbox;
+    list-style-type: none;
+    padding: 0;
+    
+}
+ul li{
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+
+}
+ul #contact{
+    background-color:aqua;
+    color: azure;
+    border-radius: 55px;
+    width: 100px;
+    text-align: center;
+    border-style: dashed;
+    border-color: palevioletred;
+}
+
+header{
+    margin-top: 0%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#C7D3DD;
+   padding-left: 25px;
+    justify-items: center;
+    text-decoration: none;
+    
+    position: sticky;
+    top: 0%;
+    width: 95%;
+    padding-top: 0% ;
+
+    
+
+    
+}
+nav{
+   padding-left:625px;
+   text-decoration: none;
+   
+   
+
+}
+section{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 75px;
+    font-family: serif;
+}
+section label{
+    color: rgb(85, 85, 170);
+    
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif ;
+
+}
+ #colie{ 
+    height: 600px;
+    width: 80%;
+    background-color: #5283ac;
+    align-items: center;
+    z-index: -2;
+    margin-left: 10%;
+    animation: colorAnimate 3s  ease-out  1.5s infinite ;
+    
+} 
+#colie h3{
+    font-family: "Train One", serif;
+}
+
+@keyframes colorAnimate{
+    from{
+         
+        background-color : #C7D3DD
+    }
+    to{
+        font-size: 80px;
+        background-color: #84E6F8;
+        padding: 0%;
+        
+       
+
+
+
+    }
+
+}
+#snack{
+    transition: all 2s ease-out 0.2s;
+
+}
+#snack :hover{
+    background-color: #5283ac;
+    color: #C7D3DD;
+    font-family: sans-serif;
+}
+
+#dpic img{
+    height: 600px;
+    position: relative;
+    /* padding-left: 110px; */
+    top: 110px;
+    border: 9px dashed darkmagenta;
+    border-radius: 25px;
+    
+    
+}
+#d1 {
+    position: relative;
+    /* right:110px; */
+    text-justify: newspaper ;
+    display: flex;
+}
+#d2 p{
+        font-size: 40px;
+        display: inline-block;
+        margin-left: 10px;
+        width: 85%;
+        justify-content: centre;
+        
+    }
+#d2 h1{
+    padding-top: 100px;
+        font-size: 45px;
+        color: black;
+       
+}
+#d2{
+    text-align: left;
+    padding-left: 30px;
+}
+#services h3 ,p{
+ display: flex;
+ text-align: left;
+ width: 50%;
+}
+#services p{
+    font-size: 40px;
+}
+#web{
+    color: #5283ac;
+    font-weight: 300;
+    display: inline;
+    position: relative;
+    left: 50%;
+    bottom: 250px;
+    
+}
+input{
+    height: 40px;
+    width: 50%;
+    position: relative;
+    right: 20%;
+    
+    background-color: #C7D3DD;
+    border: none;
+    border-bottom:3px solid #5283ac ;
+
+}
+h6{
+   position: relative;
+    left:-15%;
+}
+button{
+    border-radius: 15px;
+    border: #5283ac;
+    transition: all 5s ease-out;
+    height: 40px;
+    width: 150px;
+    position: relative;
+    left: -300px;
+    bottom: 250px;
+}
+button:hover{
+    background-color: #E7EB90;
+    color: #5283ac;
+    transform: translate(-200px,200px);
+}
+#myspace p {
+    font-size: 40px;
+    
+
+}
+#myspace{
+    justify-content: right;
+    align-items: right;
+    display: inline-block;
+    position: relative;
+    right: -400px;
+    bottom: 300px;
+
+    
+
+}
+i{
+    font-size: 40px;
+}
